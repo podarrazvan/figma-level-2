@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 94px;
+    /* Padding-ul nu afecteaza suficient de mult
+    pozitia elementelor din interiorul barii de navigare.
+    Elementele ajung in zona in care trebuia sa fie padding, de ce?*/
+    padding-top: 26px;
+    padding-bottom: 26px;
+    background-color: #3A72B5;
+}
+
+.text{
+    font-family: Roboto;
+    font-style: normal;
+}
+.titlu{
+   padding-left: 227px;
+   font-size: 28px;
+   line-height: 33px;
+   font-weight: bold;
+   color: white;
+}
+.buton{
+    position: relative;
+    float: right;
+    margin-right:227px;
+    /* am marit bottom pentru a semana cu cerinta
+    ceva nu e bine! */
+    bottom: 30px;
+    padding: 7px 19px 14px 18px;
+    border-radius: 8px;
+    background-color: white;
+}
+.img{
+    position: absolute;
+    top:44px;
+    /* nu am gasit o metoda mai buna de a centra imaginea */
+    left:calc(50% - 52px);
+}
+.container {
+    margin: 196px auto 0;
+    width: 986px;
+    height: 580px;
+    border-radius: 8px;
+    background-color:#DBDBDB;
+}
+.carduri{
+    position: relative;
+    top:105px;
+    margin: 196px auto 0;
+    width: fit-content;
+}
+.card{
+    position: relative;
+    display: inline-flex;
+    padding: 224px 101px 30px 101px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    background-color: white;
+}
+.company{
+    z-index: 1;
+    transform: rotate(-10deg);
+    
+}
+.customer{
+    transform: rotate(10deg);
+    
+}
+.cerc{
+    position: relative;
+    float:right;
+    left:30px;
+    bottom: 340px;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color:#BD2A2A;
+}
+.a{
+    text-decoration: none;
+}
